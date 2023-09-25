@@ -5,7 +5,7 @@
   "height": 400,
   "projection": {"type": "equalEarth"},
   "data": {
-    "url": "https://raw.githubusercontent.com/sthe0012/FIT3179HWWeek9/main/FIT3179Week9HW/js/ne_110m_admin_0_countries.topojson",
+    "url": "https://raw.githubusercontent.com/sthe0012/FIT3179HWWeek9/main/js/ne_110m_admin_0_countries.topojson",
     "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
   },
   "transform": [
@@ -13,7 +13,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/sthe0012/FIT3179HWWeek9/main/FIT3179Week9HW/data/2021_MtCO2_flat.csv"
+          "url": "https://raw.githubusercontent.com/sthe0012/FIT3179HWWeek9/main/data/2021_MtCO2_flat.csv"
         },
         "key": "Country",
         "fields": ["Total"]
