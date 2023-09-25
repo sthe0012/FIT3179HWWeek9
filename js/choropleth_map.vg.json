@@ -19,14 +19,8 @@
         "fields": ["Total"]
       }
     },
-    {
-      "calculate": "datum.Total",
-      "as": "Total CO2 Emissions"
-    },
-    {
-      "calculate": "datum.properties.NAME",
-      "as": "Country"
-    }
+    {"calculate": "datum.Total", "as": "Total CO2 Emissions"},
+    {"calculate": "datum.properties.NAME", "as": "Country"}
   ],
   "mark": {"type": "geoshape"},
   "encoding": {
@@ -35,7 +29,6 @@
       "type": "quantitative",
       "scale": {"type": "linear"}
     },
-    
     "tooltip": [
       {"field": "Country", "type": "nominal", "title": "Country"},
       {"field": "Total CO2 Emissions", "type": "quantitative"}
