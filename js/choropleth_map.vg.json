@@ -31,7 +31,7 @@
     },
     "tooltip": [
       {"field": "Country", "type": "nominal", "title": "Country"},
-      {"field": "Total CO2 Emissions", "type": "quantitative"}
+      {"field": "Total CO2 Emissions in Metric Tons", "type": "quantitative"}
     ]
   }
 }
